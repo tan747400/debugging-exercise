@@ -1,10 +1,11 @@
 function isEven(num) {
-  if (num % 2 === 1) {
+  if (num % 2 === 0)  {
     return true;
   } else {
     return false;
   }
 }
+
 
 // ตัวอย่างการทำงานที่ถูกต้อง
 console.log(isEven(2)); // true
